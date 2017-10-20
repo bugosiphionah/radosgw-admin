@@ -7,13 +7,13 @@
 
 ### Compile
 
-Manually
+**Manually**
 
 	g++ -I/home/programming/Desktop/Projects/radosgw-admin/boost/boost radosgw-admin.cpp -o radosgw-admin -lboost_program_options
 
 Note the path to boost folder in project
 
-Use Cmake (Require Edits to CMakeLists.txt)
+**Use Cmake (Require Edits to CMakeLists.txt)**
 
 Point to your boost setup files in the CMakeLists.txt
 
