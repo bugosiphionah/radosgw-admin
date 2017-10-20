@@ -1,11 +1,11 @@
-**radosgw-admin**
+## radosgw-admin
 
-**Get the code**
+### Get the code
 
 	git clone https://github.com/bugosiphionah/radosgw-admin
 	cd radosgw-admin
 
-**Compile**
+### Compile
 
 Manually
 
@@ -21,13 +21,13 @@ Point to your boost setup files in the CMakeLists.txt
 	make
 
 
-**Execute the commands**
+### Execute the commands
 
 0.help
 
 	./radosgw-admin --help
 
-1.Created user
+1.Create user
 
 	./radosgw-admin user create --uid=Seena --display-name=pbugosi --email=bugosip@gmail.com
 
