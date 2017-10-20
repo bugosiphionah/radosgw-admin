@@ -17,25 +17,25 @@ Use Cmake (Require Edits to CMakeLists.txt)
 
 Point to your boost setup files in the CMakeLists.txt
 
-cmake .
-make
+	cmake .
+	make
 
 
 **Execute the commands**
 
-0. help
+0.help
 
 ./radosgw-admin --help
 
-1. Created user
+1.Created user
 
 	./radosgw-admin user create --uid=Seena --display-name=pbugosi --email=bugosip@gmail.com
 
-2. Delete user
+2.Delete user
 
 	.radosgw-admin user delete -uid=Seena
 
-3. User Info
+3.User Info
 
 	./radosgw-admin user info -uid=Seena
 
