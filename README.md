@@ -1,4 +1,4 @@
-radosgw-admin
+**radosgw-admin**
 
 **Get the code**
 
