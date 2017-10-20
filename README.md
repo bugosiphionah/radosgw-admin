@@ -25,7 +25,7 @@ Point to your boost setup files in the CMakeLists.txt
 
 0.help
 
-./radosgw-admin --help
+	./radosgw-admin --help
 
 1.Created user
 
