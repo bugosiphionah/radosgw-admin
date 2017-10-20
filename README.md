@@ -15,7 +15,14 @@ Note the path to boost folder in project
 
 **Use Cmake (Require Edits to CMakeLists.txt)**
 
-Point to your boost setup files in the CMakeLists.txt
+Point to your boost setup files in the CMakeLists.txt by replacing the paths in the lines:
+
+	set(Boost_INCLUDE_DIR /usr/local/src/boost_1_46_1)
+	set(Boost_LIBRARY_DIR /usr/local/src/boost_1_46_1/stage/lib)
+	
+To your relevant setup paths
+
+Then Compile
 
 	cmake .
 	make
