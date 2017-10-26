@@ -40,9 +40,9 @@ Then Compile
 
 2.Delete user
 
-	.radosgw-admin user delete -uid=Seena
+	.radosgw-admin user delete --uid=Seena
 
 3.User Info
 
-	./radosgw-admin user info -uid=Seena
+	./radosgw-admin user info --uid=Seena
 
